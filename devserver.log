@@ -1,0 +1,2104 @@
+[2026-08-31T06:10:07.230Z] Starting dev server with command: pnpm run dev
+[2026-08-31T06:10:08.499Z] > app-template@1.0.0 dev /home/ubuntu/mother-tongue-learning-assistant
+[2026-08-31T06:10:08.499Z] > concurrently -k "pnpm dev:server" "pnpm dev:metro"
+[2026-08-31T06:10:09.209Z] [0]
+[2026-08-31T06:10:09.209Z] [0] > app-template@1.0.0 dev:server /home/ubuntu/mother-tongue-learning-assistant
+[2026-08-31T06:10:09.210Z] [0] > cross-env NODE_ENV=development tsx watch server/_core/index.ts
+[2026-08-31T06:10:09.210Z] [0]
+[2026-08-31T06:10:09.211Z] [1]
+[2026-08-31T06:10:09.211Z] [1] > app-template@1.0.0 dev:metro /home/ubuntu/mother-tongue-learning-assistant
+[2026-08-31T06:10:09.211Z] [1] > cross-env EXPO_USE_METRO_WORKSPACE_ROOT=1 npx expo start --web --port ${EXPO_PORT:-8081}
+[2026-08-31T06:10:09.211Z] [1]
+[2026-08-31T06:10:10.174Z] [1] Starting project at /home/ubuntu/mother-tongue-learning-assistant
+[2026-08-31T06:10:10.608Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:10:10.979Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:10:10.980Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:10:10.981Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:10:11.265Z] [1] React Compiler enabled
+[2026-08-31T06:10:11.408Z] [1] Starting Metro Bundler
+[2026-08-31T06:10:11.441Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:10:13.226Z] [0] [OAuth] Initialized with baseURL: https://api.manus.im
+[2026-08-31T06:10:13.460Z] [0] [api] server listening on port 3000
+[2026-08-31T06:10:19.566Z] [1] The following packages should be updated for best compatibility with the installed expo version:
+[2026-08-31T06:10:19.566Z] [1]   expo@54.0.29 - expected version: ~54.0.37
+[2026-08-31T06:10:19.566Z] [1]   expo-audio@1.1.0 - expected version: ~1.1.1
+[2026-08-31T06:10:19.566Z] [1]   expo-constants@18.0.12 - expected version: ~18.0.14
+[2026-08-31T06:10:19.566Z] [1]   expo-font@14.0.10 - expected version: ~14.0.12
+[2026-08-31T06:10:19.566Z] [1]   expo-linking@8.0.10 - expected version: ~8.0.12
+[2026-08-31T06:10:19.566Z] [1]   expo-notifications@0.32.15 - expected version: ~0.32.17
+[2026-08-31T06:10:19.566Z] [1]   expo-router@6.0.19 - expected version: ~6.0.24
+[2026-08-31T06:10:19.566Z] [1]   expo-splash-screen@31.0.12 - expected version: ~31.0.13
+[2026-08-31T06:10:19.566Z] [1]   expo-video@3.0.15 - expected version: ~3.0.16
+[2026-08-31T06:10:19.566Z] [1]   expo-web-browser@15.0.10 - expected version: ~15.0.11
+[2026-08-31T06:10:19.566Z] [1] Your project may not work correctly until you install the expected versions of the packages.
+[2026-08-31T06:10:19.575Z] [1] Waiting on http://localhost:8081
+[2026-08-31T06:10:19.575Z] [1] Logs for your project will appear below.
+[2026-08-31T06:10:20.376Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:10:20.377Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:10:23.077Z] [1] Web node_modules/expo-router/entry.js ▓▓▓▓▓░░░░░░░░░░░ 36.0% (19/37)
+[2026-08-31T06:10:23.077Z] [1] λ node_modules/expo-router/node/render.js ▓▓▓░░░░░░░░░░░░░ 19.4% (142/322)
+[2026-08-31T06:10:24.658Z] [1] | Browserslist: browsers data (caniuse-lite) is 8 months old. Please run:
+[2026-08-31T06:10:24.696Z] [1] |   npx update-browserslist-db@latest
+[2026-08-31T06:10:24.696Z] [1] |   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+[2026-08-31T06:10:26.581Z] [1] Web node_modules/expo-router/entry.js ▓▓▓▓▓░░░░░░░░░░░ 36.0% (235/421)
+[2026-08-31T06:10:26.581Z] [1] λ node_modules/expo-router/node/render.js ▓▓▓▓▓▓▓▓▓░░░░░░░ 58.9% (553/732)
+[2026-08-31T06:10:30.084Z] [1] Web node_modules/expo-router/entry.js ▓▓▓▓▓▓▓░░░░░░░░░ 45.8% (461/681)
+[2026-08-31T06:10:30.084Z] [1] λ node_modules/expo-router/node/render.js ▓▓▓▓▓▓▓▓▓▓▓░░░░░ 69.1% ( 853/1026)
+[2026-08-31T06:10:33.609Z] [1] Web node_modules/expo-router/entry.js ▓▓▓▓▓▓▓▓▓▓▓▓░░░░ 77.0% ( 962/1096)
+[2026-08-31T06:10:33.609Z] [1] λ node_modules/expo-router/node/render.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░ 90.8% (1068/1121)
+[2026-08-31T06:10:36.160Z] [1] λ Bundled 15767ms node_modules/expo-router/node/render.js (1317 modules)
+[2026-08-31T06:10:38.141Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:10:38.142Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:10:38.142Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:10:38.142Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:10:38.142Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:10:38.142Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:10:38.142Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:10:38.142Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:10:38.142Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:10:38.142Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:10:38.142Z] [1] }
+[2026-08-31T06:10:38.179Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:10:38.190Z] [1] Web node_modules/expo-router/entry.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░ 98.5% (1353/1363)
+[2026-08-31T06:10:38.355Z] [1] Web Bundled 17963ms node_modules/expo-router/entry.js (1364 modules)
+[2026-08-31T06:10:41.689Z] [1] Web node_modules/expo-router/entry.js ▓▓▓▓▓▓▓░░░░░░░░░ 48.7% (538/771)
+[2026-08-31T06:10:45.189Z] [1] Web node_modules/expo-router/entry.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░ 93.3% (1198/1240)
+[2026-08-31T06:10:46.211Z] [1] Web Bundled 7804ms node_modules/expo-router/entry.js (1366 modules)
+[2026-08-31T06:10:46.640Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:12:40.233Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:12:40.235Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:12:40.239Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:12:40.974Z] [1] Web Bundled 735ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:12:41.137Z] [1] λ Bundled 792ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:12:41.828Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:12:41.828Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:12:41.828Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:12:41.828Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:12:41.828Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:12:41.828Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:12:41.828Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:12:41.828Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:12:41.828Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:12:41.828Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:12:41.828Z] [1] }
+[2026-08-31T06:12:41.873Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:12:41.978Z] [1] Web Bundled 58ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:12:42.507Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:14:34.477Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:14:34.481Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:14:34.483Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:14:35.153Z] [1] Web Bundled 670ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:14:35.286Z] [1] λ Bundled 801ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:14:35.950Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:14:35.950Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:14:35.950Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:14:35.950Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:14:35.950Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:14:35.950Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:14:35.950Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:14:35.950Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:14:35.950Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:14:35.950Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:14:35.950Z] [1] }
+[2026-08-31T06:14:35.994Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:14:36.083Z] [1] Web Bundled 52ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:14:36.594Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:15:05.786Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:15:05.787Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:15:05.790Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:15:05.993Z] [1] λ Bundled 60ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:15:06.245Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:15:06.245Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:15:06.245Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:15:06.245Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:15:06.245Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:15:06.245Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:15:06.245Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:15:06.245Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:15:06.245Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:15:06.245Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:15:06.245Z] [1] }
+[2026-08-31T06:15:06.271Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:15:06.278Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:15:06.312Z] [1] Web Bundled 522ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:15:06.571Z] [1] Web Bundled 70ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:15:08.685Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:15:09.637Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:15:09.638Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:15:09.809Z] [1] λ Bundled 43ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:15:09.809Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:15:09.965Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:15:09.965Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:15:09.965Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:15:09.965Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:15:09.965Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:15:09.965Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:15:09.965Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:15:09.965Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:15:09.965Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:15:09.965Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:15:09.965Z] [1] }
+[2026-08-31T06:15:09.988Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:15:09.994Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:15:10.013Z] [1] Web Bundled 373ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:15:10.855Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:15:10.856Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:15:11.018Z] [1] λ Bundled 41ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:15:11.170Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:15:11.170Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:15:11.170Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:15:11.170Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:15:11.170Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:15:11.170Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:15:11.170Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:15:11.170Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:15:11.170Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:15:11.170Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:15:11.170Z] [1] }
+[2026-08-31T06:15:11.191Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:15:11.196Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:15:11.216Z] [1] Web Bundled 359ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:15:11.506Z] [1] Web Bundled 52ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:15:12.529Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:16:58.429Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:16:58.432Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:16:58.434Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:16:58.616Z] [1] λ Bundled 54ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:16:58.798Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:16:58.798Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:16:58.798Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:16:58.798Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:16:58.798Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:16:58.798Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:16:58.798Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:16:58.798Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:16:58.798Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:16:58.798Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:16:58.798Z] [1] }
+[2026-08-31T06:16:58.824Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:16:58.830Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:16:58.864Z] [1] Web Bundled 429ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:16:59.226Z] [1] Web Bundled 51ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:17:00.297Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:17:01.124Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:17:01.125Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:17:01.307Z] [1] λ Bundled 52ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:17:01.479Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:17:01.479Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:17:01.479Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:17:01.479Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:17:01.479Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:17:01.479Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:17:01.479Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:17:01.479Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:17:01.479Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:17:01.479Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:17:01.479Z] [1] }
+[2026-08-31T06:17:01.503Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:17:01.509Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:17:01.528Z] [1] Web Bundled 401ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:17:02.480Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:17:02.481Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:17:02.642Z] [1] λ Bundled 40ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:17:02.803Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:17:02.803Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:17:02.803Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:17:02.803Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:17:02.803Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:17:02.803Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:17:02.803Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:17:02.803Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:17:02.803Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:17:02.803Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:17:02.803Z] [1] }
+[2026-08-31T06:17:02.826Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:17:02.832Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:17:02.854Z] [1] Web Bundled 371ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:17:03.191Z] [1] Web Bundled 53ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:17:04.231Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:17:24.699Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:17:24.700Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:17:24.702Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:17:24.875Z] [1] λ Bundled 46ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:17:25.019Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:17:25.019Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:17:25.019Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:17:25.019Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:17:25.019Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:17:25.019Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:17:25.019Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:17:25.019Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:17:25.019Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:17:25.019Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:17:25.019Z] [1] }
+[2026-08-31T06:17:25.040Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:17:25.045Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:17:25.068Z] [1] Web Bundled 366ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:17:25.384Z] [1] Web Bundled 89ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:17:26.599Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:17:27.258Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:17:27.259Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:17:27.428Z] [1] λ Bundled 41ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:17:27.577Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:17:27.577Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:17:27.577Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:17:27.577Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:17:27.577Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:17:27.577Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:17:27.577Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:17:27.577Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:17:27.577Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:17:27.577Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:17:27.577Z] [1] }
+[2026-08-31T06:17:27.599Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:17:27.604Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:17:27.622Z] [1] Web Bundled 361ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:17:28.392Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:17:28.393Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:17:28.548Z] [1] λ Bundled 36ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:17:28.690Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:17:28.690Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:17:28.691Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:17:28.691Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:17:28.691Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:17:28.691Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:17:28.691Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:17:28.691Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:17:28.691Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:17:28.691Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:17:28.691Z] [1] }
+[2026-08-31T06:17:28.708Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:17:28.713Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:17:28.731Z] [1] Web Bundled 336ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:17:28.922Z] [1] Web Bundled 53ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:17:29.787Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:18:13.075Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:18:13.077Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:18:13.079Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:18:13.256Z] [1] λ Bundled 48ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:18:13.417Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:18:13.417Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:18:13.417Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:18:13.417Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:18:13.417Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:18:13.417Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:18:13.417Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:18:13.417Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:18:13.417Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:18:13.417Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:18:13.417Z] [1] }
+[2026-08-31T06:18:13.444Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:18:13.471Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:18:13.488Z] [1] Web Bundled 409ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:18:13.723Z] [1] Web Bundled 52ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:18:14.800Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:18:15.543Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:18:15.544Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:18:15.712Z] [1] λ Bundled 40ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:18:15.872Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:18:15.872Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:18:15.872Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:18:15.872Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:18:15.872Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:18:15.872Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:18:15.872Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:18:15.872Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:18:15.872Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:18:15.872Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:18:15.872Z] [1] }
+[2026-08-31T06:18:15.892Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:18:15.896Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:18:15.914Z] [1] Web Bundled 369ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:18:16.595Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:18:16.596Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:18:16.754Z] [1] λ Bundled 35ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:18:16.898Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:18:16.898Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:18:16.898Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:18:16.899Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:18:16.899Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:18:16.899Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:18:16.899Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:18:16.899Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:18:16.899Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:18:16.899Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:18:16.899Z] [1] }
+[2026-08-31T06:18:16.917Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:18:16.921Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:18:16.939Z] [1] Web Bundled 342ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:18:17.154Z] [1] Web Bundled 52ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:18:18.262Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:21:30.846Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:21:30.848Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:21:30.851Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:21:31.737Z] [1] Web Bundled 886ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:21:31.907Z] [1] λ Bundled 934ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:21:32.315Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:21:32.315Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:21:32.315Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:21:32.315Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:21:32.315Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:21:32.315Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:21:32.315Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:21:32.315Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:21:32.315Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:21:32.315Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:21:32.315Z] [1] }
+[2026-08-31T06:21:32.353Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:21:32.438Z] [1] Web Bundled 58ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:21:32.931Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:22:49.891Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:22:49.896Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:22:49.898Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:22:50.082Z] [1] λ Bundled 53ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:22:50.269Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:22:50.269Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:22:50.269Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:22:50.269Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:22:50.269Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:22:50.269Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:22:50.269Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:22:50.269Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:22:50.269Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:22:50.269Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:22:50.269Z] [1] }
+[2026-08-31T06:22:50.294Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:22:50.300Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:22:50.338Z] [1] Web Bundled 440ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:22:50.556Z] [1] Web Bundled 77ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:22:51.596Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:22:52.185Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:22:52.187Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:22:52.358Z] [1] λ Bundled 43ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:22:52.510Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:22:52.510Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:22:52.510Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:22:52.510Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:22:52.510Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:22:52.510Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:22:52.510Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:22:52.510Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:22:52.510Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:22:52.510Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:22:52.510Z] [1] }
+[2026-08-31T06:22:52.534Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:22:52.539Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:22:52.560Z] [1] Web Bundled 372ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:22:53.228Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:22:53.229Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:22:53.385Z] [1] λ Bundled 36ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:22:53.539Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:22:53.539Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:22:53.539Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:22:53.539Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:22:53.540Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:22:53.540Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:22:53.540Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:22:53.540Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:22:53.540Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:22:53.540Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:22:53.540Z] [1] }
+[2026-08-31T06:22:53.561Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:22:53.566Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:22:53.586Z] [1] Web Bundled 356ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:22:53.908Z] [1] Web Bundled 53ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:22:54.602Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:23:48.919Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:23:48.920Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:23:48.921Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:23:49.086Z] [1] λ Bundled 36ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:23:49.262Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:23:49.263Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:23:49.263Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:23:49.263Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:23:49.263Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:23:49.263Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:23:49.263Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:23:49.263Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:23:49.263Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:23:49.263Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:23:49.263Z] [1] }
+[2026-08-31T06:23:49.293Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:23:49.298Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:23:49.317Z] [1] Web Bundled 396ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:23:49.489Z] [1] Web Bundled 54ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:23:50.108Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:23:50.846Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:23:50.848Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:23:51.019Z] [1] λ Bundled 43ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:23:51.154Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:23:51.154Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:23:51.154Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:23:51.154Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:23:51.154Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:23:51.154Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:23:51.154Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:23:51.154Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:23:51.154Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:23:51.154Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:23:51.154Z] [1] }
+[2026-08-31T06:23:51.172Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:23:51.177Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:23:51.195Z] [1] Web Bundled 346ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:23:51.844Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:23:51.846Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:23:52.007Z] [1] λ Bundled 37ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:23:52.141Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:23:52.141Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:23:52.141Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:23:52.141Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:23:52.141Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:23:52.141Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:23:52.141Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:23:52.141Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:23:52.141Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:23:52.141Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:23:52.141Z] [1] }
+[2026-08-31T06:23:52.160Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:23:52.164Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:23:52.183Z] [1] Web Bundled 336ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:23:52.389Z] [1] Web Bundled 51ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:23:52.972Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:24:06.705Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:24:06.706Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:24:06.707Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:24:06.858Z] [1] λ Bundled 33ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:24:07.005Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:24:07.005Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:24:07.005Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:24:07.005Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:24:07.005Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:24:07.005Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:24:07.005Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:24:07.005Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:24:07.005Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:24:07.005Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:24:07.005Z] [1] }
+[2026-08-31T06:24:07.026Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:24:07.031Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:24:07.061Z] [1] Web Bundled 353ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:24:07.271Z] [1] Web Bundled 52ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:24:07.857Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:24:08.679Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:24:08.681Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:24:08.845Z] [1] λ Bundled 38ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:24:08.989Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:24:08.989Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:24:08.989Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:24:08.989Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:24:08.989Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:24:08.989Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:24:08.989Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:24:08.989Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:24:08.989Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:24:08.989Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:24:08.989Z] [1] }
+[2026-08-31T06:24:09.008Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:24:09.012Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:24:09.031Z] [1] Web Bundled 349ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:24:09.708Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:24:09.709Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:24:09.870Z] [1] λ Bundled 37ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:24:10.052Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:24:10.052Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:24:10.052Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:24:10.052Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:24:10.052Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:24:10.052Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:24:10.052Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:24:10.052Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:24:10.052Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:24:10.052Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:24:10.052Z] [1] }
+[2026-08-31T06:24:10.073Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:24:10.078Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:24:10.092Z] [1] Web Bundled 381ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:24:10.277Z] [1] Web Bundled 55ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:24:10.937Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:25:45.045Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:25:45.047Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:25:45.048Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:25:45.229Z] [1] λ Bundled 53ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:25:45.409Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:25:45.409Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:25:45.409Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:25:45.409Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:25:45.409Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:25:45.409Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:25:45.409Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:25:45.409Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:25:45.409Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:25:45.409Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:25:45.409Z] [1] }
+[2026-08-31T06:25:45.434Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:25:45.440Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:25:45.480Z] [1] Web Bundled 431ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:25:45.688Z] [1] Web Bundled 63ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:25:46.337Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:25:47.571Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:25:47.572Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:25:47.736Z] [1] λ Bundled 39ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:25:47.882Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:25:47.882Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:25:47.882Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:25:47.882Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:25:47.882Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:25:47.882Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:25:47.882Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:25:47.882Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:25:47.882Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:25:47.882Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:25:47.883Z] [1] }
+[2026-08-31T06:25:47.905Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:25:47.910Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:25:47.931Z] [1] Web Bundled 357ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:25:48.734Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:25:48.735Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:25:48.893Z] [1] λ Bundled 38ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:25:49.040Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:25:49.040Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:25:49.040Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:25:49.040Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:25:49.040Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:25:49.040Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:25:49.040Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:25:49.040Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:25:49.040Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:25:49.040Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:25:49.040Z] [1] }
+[2026-08-31T06:25:49.062Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:25:49.067Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:25:49.086Z] [1] Web Bundled 350ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:25:49.265Z] [1] Web Bundled 56ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:25:49.903Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:26:16.051Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:26:16.052Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:26:16.054Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:26:16.217Z] [1] λ Bundled 40ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:26:16.354Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:26:16.354Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:26:16.354Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:26:16.354Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:26:16.354Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:26:16.354Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:26:16.354Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:26:16.354Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:26:16.354Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:26:16.354Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:26:16.354Z] [1] }
+[2026-08-31T06:26:16.375Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:26:16.380Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:26:16.404Z] [1] Web Bundled 350ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:26:16.728Z] [1] Web Bundled 50ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:26:17.312Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:26:18.673Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:26:18.674Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:26:18.839Z] [1] λ Bundled 38ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:26:18.975Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:26:18.975Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:26:18.975Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:26:18.975Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:26:18.975Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:26:18.975Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:26:18.975Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:26:18.975Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:26:18.975Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:26:18.975Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:26:18.975Z] [1] }
+[2026-08-31T06:26:18.995Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:26:19.000Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:26:19.018Z] [1] Web Bundled 342ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:26:19.754Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:26:19.755Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:26:19.912Z] [1] λ Bundled 37ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:26:20.051Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:26:20.051Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:26:20.051Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:26:20.051Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:26:20.051Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:26:20.051Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:26:20.051Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:26:20.051Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:26:20.051Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:26:20.051Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:26:20.051Z] [1] }
+[2026-08-31T06:26:20.069Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:26:20.073Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:26:20.091Z] [1] Web Bundled 334ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:26:20.314Z] [1] Web Bundled 55ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:26:20.989Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:26:51.468Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:26:51.469Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:26:51.470Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:26:51.622Z] [1] λ Bundled 34ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:26:51.766Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:26:51.766Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:26:51.766Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:26:51.766Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:26:51.766Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:26:51.766Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:26:51.766Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:26:51.766Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:26:51.766Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:26:51.766Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:26:51.766Z] [1] }
+[2026-08-31T06:26:51.784Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:26:51.788Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:26:51.805Z] [1] Web Bundled 335ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:26:52.010Z] [1] Web Bundled 50ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:26:52.587Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:26:53.423Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:26:53.425Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:26:53.592Z] [1] λ Bundled 42ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:26:53.729Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:26:53.729Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:26:53.729Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:26:53.729Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:26:53.729Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:26:53.729Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:26:53.729Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:26:53.729Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:26:53.729Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:26:53.729Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:26:53.729Z] [1] }
+[2026-08-31T06:26:53.749Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:26:53.754Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:26:53.772Z] [1] Web Bundled 346ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:26:54.483Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:26:54.485Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:26:54.640Z] [1] λ Bundled 36ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:26:54.775Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:26:54.775Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:26:54.775Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:26:54.775Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:26:54.775Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:26:54.775Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:26:54.775Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:26:54.775Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:26:54.775Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:26:54.775Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:26:54.775Z] [1] }
+[2026-08-31T06:26:54.793Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:26:54.797Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:26:54.815Z] [1] Web Bundled 329ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:26:55.009Z] [1] Web Bundled 52ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:26:55.622Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:28:59.792Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:28:59.794Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:28:59.796Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:28:59.972Z] [1] λ Bundled 49ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:29:00.144Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:29:00.144Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:29:00.144Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:29:00.144Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:29:00.144Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:29:00.144Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:29:00.144Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:29:00.144Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:29:00.144Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:29:00.144Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:29:00.144Z] [1] }
+[2026-08-31T06:29:00.168Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:29:00.174Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:29:00.204Z] [1] Web Bundled 408ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:29:00.403Z] [1] Web Bundled 69ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:29:01.121Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:29:02.278Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:29:02.279Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:29:02.443Z] [1] λ Bundled 38ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:29:02.567Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:29:02.567Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:29:02.567Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:29:02.567Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:29:02.567Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:29:02.567Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:29:02.567Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:29:02.567Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:29:02.567Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:29:02.567Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:29:02.567Z] [1] }
+[2026-08-31T06:29:02.590Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:29:02.595Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:29:02.613Z] [1] Web Bundled 332ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:29:03.289Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:29:03.290Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:29:03.442Z] [1] λ Bundled 34ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:29:03.565Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:29:03.565Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:29:03.565Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:29:03.565Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:29:03.565Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:29:03.565Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:29:03.565Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:29:03.565Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:29:03.565Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:29:03.565Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:29:03.565Z] [1] }
+[2026-08-31T06:29:03.587Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:29:03.591Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:29:03.609Z] [1] Web Bundled 318ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:29:03.804Z] [1] Web Bundled 51ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:29:04.458Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:30:19.391Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:30:19.392Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:30:19.394Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:30:20.075Z] [1] λ Bundled 680ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:30:20.643Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:30:20.643Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:30:20.643Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:30:20.643Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:30:20.643Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:30:20.643Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:30:20.643Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:30:20.643Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:30:20.643Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:30:20.643Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:30:20.643Z] [1] }
+[2026-08-31T06:30:20.683Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:30:20.690Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:30:20.709Z] [1] Web Bundled 1315ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:30:20.904Z] [1] Web Bundled 61ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:30:21.652Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:30:23.042Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:30:23.043Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:30:23.211Z] [1] λ Bundled 42ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:30:23.356Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:30:23.356Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:30:23.356Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:30:23.356Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:30:23.356Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:30:23.356Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:30:23.356Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:30:23.356Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:30:23.356Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:30:23.356Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:30:23.356Z] [1] }
+[2026-08-31T06:30:23.378Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:30:23.383Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:30:23.408Z] [1] Web Bundled 363ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:30:24.074Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:30:24.076Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:30:24.247Z] [1] λ Bundled 42ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:30:24.438Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:30:24.438Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:30:24.438Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:30:24.438Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:30:24.438Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:30:24.438Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:30:24.438Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:30:24.438Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:30:24.438Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:30:24.438Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:30:24.438Z] [1] }
+[2026-08-31T06:30:24.458Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:30:24.463Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:30:24.486Z] [1] Web Bundled 409ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:30:24.662Z] [1] Web Bundled 53ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:30:25.277Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:30:58.571Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:30:58.572Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:30:58.575Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:30:58.752Z] [1] λ Bundled 52ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:30:58.925Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:30:58.925Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:30:58.925Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:30:58.925Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:30:58.925Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:30:58.925Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:30:58.925Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:30:58.925Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:30:58.925Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:30:58.925Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:30:58.925Z] [1] }
+[2026-08-31T06:30:58.949Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:30:58.955Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:30:58.985Z] [1] Web Bundled 410ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:30:59.117Z] [1] Web Bundled 63ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:30:59.632Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:33:39.816Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:33:39.819Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:33:39.821Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:33:40.001Z] [1] λ Bundled 52ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:33:40.189Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:33:40.189Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:33:40.189Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:33:40.189Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:33:40.189Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:33:40.189Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:33:40.189Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:33:40.189Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:33:40.189Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:33:40.189Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:33:40.190Z] [1] }
+[2026-08-31T06:33:40.216Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:33:40.220Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:33:40.296Z] [1] Web Bundled 473ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:33:40.548Z] [1] Web Bundled 129ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:33:43.453Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:33:43.983Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:33:43.985Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:33:44.313Z] [1]  ELIFECYCLE  Command failed.
+[2026-08-31T06:33:44.313Z] [0]  ELIFECYCLE  Command failed.
+[2026-08-31T06:33:44.329Z] ELIFECYCLE  Command failed.
+[2026-08-31T06:33:44.414Z] [0] pnpm dev:server exited with code SIGTERM
+[2026-08-31T06:33:44.416Z] --> Sending SIGTERM to other processes..
+[2026-08-31T06:33:44.650Z] [1] pnpm dev:metro exited with code SIGTERM
+[2026-08-31T06:33:45.821Z] Lockfile is up to date, resolution step is skipped
+[2026-08-31T06:33:46.182Z] Progress: resolved 0, reused 1, downloaded 0, added 0
+[2026-08-31T06:33:46.326Z] Dev server exited with code -1
+[2026-08-31T06:33:47.364Z] Starting dev server with command: pnpm run dev
+[2026-08-31T06:33:48.572Z] > app-template@1.0.0 dev /home/ubuntu/mother-tongue-learning-assistant
+[2026-08-31T06:33:48.572Z] > concurrently -k "pnpm dev:server" "pnpm dev:metro"
+[2026-08-31T06:33:49.314Z] [1]
+[2026-08-31T06:33:49.314Z] [1] > app-template@1.0.0 dev:metro /home/ubuntu/mother-tongue-learning-assistant
+[2026-08-31T06:33:49.315Z] [1] > cross-env EXPO_USE_METRO_WORKSPACE_ROOT=1 npx expo start --web --port ${EXPO_PORT:-8081}
+[2026-08-31T06:33:49.315Z] [1]
+[2026-08-31T06:33:49.315Z] [0]
+[2026-08-31T06:33:49.315Z] [0] > app-template@1.0.0 dev:server /home/ubuntu/mother-tongue-learning-assistant
+[2026-08-31T06:33:49.315Z] [0] > cross-env NODE_ENV=development tsx watch server/_core/index.ts
+[2026-08-31T06:33:49.315Z] [0]
+[2026-08-31T06:33:50.099Z] [1] Starting project at /home/ubuntu/mother-tongue-learning-assistant
+[2026-08-31T06:33:50.574Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:33:50.993Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:33:50.994Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:33:50.994Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:33:51.289Z] [1] React Compiler enabled
+[2026-08-31T06:33:51.483Z] [1] Starting Metro Bundler
+[2026-08-31T06:33:51.527Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:33:52.930Z] [0] [OAuth] Initialized with baseURL: https://api.manus.im
+[2026-08-31T06:33:53.077Z] [0] [api] server listening on port 3000
+[2026-08-31T06:33:59.953Z] [1] The following packages should be updated for best compatibility with the installed expo version:
+[2026-08-31T06:33:59.954Z] [1]   expo@54.0.29 - expected version: ~54.0.37
+[2026-08-31T06:33:59.954Z] [1]   expo-audio@1.1.0 - expected version: ~1.1.1
+[2026-08-31T06:33:59.954Z] [1]   expo-constants@18.0.12 - expected version: ~18.0.14
+[2026-08-31T06:33:59.954Z] [1]   expo-font@14.0.10 - expected version: ~14.0.12
+[2026-08-31T06:33:59.954Z] [1]   expo-linking@8.0.10 - expected version: ~8.0.12
+[2026-08-31T06:33:59.954Z] [1]   expo-notifications@0.32.15 - expected version: ~0.32.17
+[2026-08-31T06:33:59.954Z] [1]   expo-router@6.0.19 - expected version: ~6.0.24
+[2026-08-31T06:33:59.954Z] [1]   expo-splash-screen@31.0.12 - expected version: ~31.0.13
+[2026-08-31T06:33:59.954Z] [1]   expo-video@3.0.15 - expected version: ~3.0.16
+[2026-08-31T06:33:59.954Z] [1]   expo-web-browser@15.0.10 - expected version: ~15.0.11
+[2026-08-31T06:33:59.954Z] [1] Your project may not work correctly until you install the expected versions of the packages.
+[2026-08-31T06:33:59.964Z] [1] Waiting on http://localhost:8081
+[2026-08-31T06:33:59.964Z] [1] Logs for your project will appear below.
+[2026-08-31T06:34:00.134Z] ELIFECYCLE  Command failed.
+[2026-08-31T06:34:00.139Z] [1]  ELIFECYCLE  Command failed.
+[2026-08-31T06:34:00.139Z] [0]  ELIFECYCLE  Command failed.
+[2026-08-31T06:34:00.156Z] [0] 6:34:00 AM [tsx] Previous process hasn't exited yet. Force killing...
+[2026-08-31T06:34:00.188Z] [0] pnpm dev:server exited with code SIGTERM
+[2026-08-31T06:34:00.189Z] --> Sending SIGTERM to other processes..
+[2026-08-31T06:34:00.206Z] [1] pnpm dev:metro exited with code SIGTERM
+[2026-08-31T06:34:01.550Z] Lockfile is up to date, resolution step is skipped
+[2026-08-31T06:34:01.963Z] Progress: resolved 0, reused 1, downloaded 0, added 0
+[2026-08-31T06:34:02.161Z] Dev server exited with code -1
+[2026-08-31T06:34:03.196Z] Starting dev server with command: pnpm run dev
+[2026-08-31T06:34:04.503Z] > app-template@1.0.0 dev /home/ubuntu/mother-tongue-learning-assistant
+[2026-08-31T06:34:04.503Z] > concurrently -k "pnpm dev:server" "pnpm dev:metro"
+[2026-08-31T06:34:05.249Z] [1]
+[2026-08-31T06:34:05.249Z] [1] > app-template@1.0.0 dev:metro /home/ubuntu/mother-tongue-learning-assistant
+[2026-08-31T06:34:05.249Z] [1] > cross-env EXPO_USE_METRO_WORKSPACE_ROOT=1 npx expo start --web --port ${EXPO_PORT:-8081}
+[2026-08-31T06:34:05.249Z] [1]
+[2026-08-31T06:34:05.292Z] [0]
+[2026-08-31T06:34:05.292Z] [0] > app-template@1.0.0 dev:server /home/ubuntu/mother-tongue-learning-assistant
+[2026-08-31T06:34:05.292Z] [0] > cross-env NODE_ENV=development tsx watch server/_core/index.ts
+[2026-08-31T06:34:05.292Z] [0]
+[2026-08-31T06:34:05.924Z] [1] Starting project at /home/ubuntu/mother-tongue-learning-assistant
+[2026-08-31T06:34:06.385Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:34:06.732Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:34:06.733Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:34:06.734Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:34:06.994Z] [1] React Compiler enabled
+[2026-08-31T06:34:07.128Z] [1] Starting Metro Bundler
+[2026-08-31T06:34:07.161Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:34:07.437Z] [1] The following packages should be updated for best compatibility with the installed expo version:
+[2026-08-31T06:34:07.437Z] [1]   expo@54.0.29 - expected version: ~54.0.37
+[2026-08-31T06:34:07.437Z] [1]   expo-audio@1.1.0 - expected version: ~1.1.1
+[2026-08-31T06:34:07.437Z] [1]   expo-constants@18.0.12 - expected version: ~18.0.14
+[2026-08-31T06:34:07.437Z] [1]   expo-font@14.0.10 - expected version: ~14.0.12
+[2026-08-31T06:34:07.437Z] [1]   expo-linking@8.0.10 - expected version: ~8.0.12
+[2026-08-31T06:34:07.437Z] [1]   expo-notifications@0.32.15 - expected version: ~0.32.17
+[2026-08-31T06:34:07.437Z] [1]   expo-router@6.0.19 - expected version: ~6.0.24
+[2026-08-31T06:34:07.440Z] [1]   expo-splash-screen@31.0.12 - expected version: ~31.0.13
+[2026-08-31T06:34:07.440Z] [1]   expo-video@3.0.15 - expected version: ~3.0.16
+[2026-08-31T06:34:07.441Z] [1]   expo-web-browser@15.0.10 - expected version: ~15.0.11
+[2026-08-31T06:34:07.441Z] [1] Your project may not work correctly until you install the expected versions of the packages.
+[2026-08-31T06:34:07.445Z] [1] Waiting on http://localhost:8081
+[2026-08-31T06:34:07.445Z] [1] Logs for your project will appear below.
+[2026-08-31T06:34:07.662Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:34:07.664Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:34:08.801Z] [0] [OAuth] Initialized with baseURL: https://api.manus.im
+[2026-08-31T06:34:08.928Z] [0] [api] server listening on port 3000
+[2026-08-31T06:34:13.853Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:34:13.853Z] [1] λ node_modules/expo-router/node/render.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:34:15.512Z] [1] | Browserslist: browsers data (caniuse-lite) is 8 months old. Please run:
+[2026-08-31T06:34:15.633Z] [1] |   npx update-browserslist-db@latest
+[2026-08-31T06:34:15.633Z] [1] |   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+[2026-08-31T06:34:16.504Z] [1] λ Bundled 2671ms node_modules/expo-router/node/render.js (1327 modules)
+[2026-08-31T06:34:18.420Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:34:18.420Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:34:18.420Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:34:18.420Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:34:18.420Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:34:18.420Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:34:18.420Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:34:18.420Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:34:18.420Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:34:18.420Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:34:18.420Z] [1] }
+[2026-08-31T06:34:18.465Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:34:18.476Z] [1] Web node_modules/expo-router/entry.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░ 94.8% (1304/1339)
+[2026-08-31T06:34:18.484Z] [1] Web Bundled 4652ms node_modules/expo-router/entry.js (1339 modules)
+[2026-08-31T06:34:20.295Z] [1] Web Bundled 1750ms node_modules/expo-router/entry.js (1385 modules)
+[2026-08-31T06:34:20.738Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:34:26.204Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:34:26.205Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:34:26.207Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:34:26.381Z] [1] λ Bundled 45ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:34:26.529Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:34:26.529Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:34:26.529Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:34:26.529Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:34:26.529Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:34:26.529Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:34:26.529Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:34:26.529Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:34:26.529Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:34:26.529Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:34:26.529Z] [1] }
+[2026-08-31T06:34:26.555Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:34:26.561Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:34:26.585Z] [1] Web Bundled 378ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:34:26.793Z] [1] Web Bundled 53ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:34:27.529Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:34:28.736Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:34:28.737Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:34:28.896Z] [1] λ Bundled 35ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:34:29.048Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:34:29.048Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:34:29.048Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:34:29.048Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:34:29.048Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:34:29.048Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:34:29.048Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:34:29.048Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:34:29.048Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:34:29.048Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:34:29.048Z] [1] }
+[2026-08-31T06:34:29.070Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:34:29.075Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:34:29.099Z] [1] Web Bundled 360ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:34:29.785Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:34:29.787Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:34:29.943Z] [1] λ Bundled 36ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:34:30.097Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:34:30.097Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:34:30.097Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:34:30.097Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:34:30.097Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:34:30.097Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:34:30.097Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:34:30.097Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:34:30.097Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:34:30.097Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:34:30.097Z] [1] }
+[2026-08-31T06:34:30.122Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:34:30.131Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:34:30.155Z] [1] Web Bundled 367ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:34:30.380Z] [1] Web Bundled 52ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:34:31.093Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:35:23.676Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:35:23.678Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:35:23.680Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:35:23.860Z] [1] λ Bundled 50ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:35:24.019Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:35:24.019Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:35:24.019Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:35:24.019Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:35:24.019Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:35:24.019Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:35:24.019Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:35:24.019Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:35:24.019Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:35:24.019Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:35:24.019Z] [1] }
+[2026-08-31T06:35:24.043Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:35:24.049Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:35:24.092Z] [1] Web Bundled 412ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:35:24.336Z] [1] Web Bundled 47ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:35:24.918Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:35:26.171Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:35:26.173Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:35:26.344Z] [1] λ Bundled 41ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:35:26.478Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:35:26.478Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:35:26.478Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:35:26.478Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:35:26.478Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:35:26.478Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:35:26.478Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:35:26.478Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:35:26.478Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:35:26.478Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:35:26.478Z] [1] }
+[2026-08-31T06:35:26.500Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:35:26.505Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:35:26.527Z] [1] Web Bundled 352ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:35:27.194Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:35:27.195Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:35:27.344Z] [1] λ Bundled 31ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:35:27.473Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:35:27.473Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:35:27.473Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:35:27.473Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:35:27.473Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:35:27.473Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:35:27.473Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:35:27.473Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:35:27.473Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:35:27.473Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:35:27.473Z] [1] }
+[2026-08-31T06:35:27.495Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:35:27.499Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:35:27.522Z] [1] Web Bundled 326ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:35:27.815Z] [1] Web Bundled 47ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:35:28.483Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:38:30.074Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:38:30.075Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:38:30.077Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:38:30.802Z] [1] Web Bundled 725ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:38:30.906Z] [1] λ Bundled 829ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:38:31.421Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:38:31.421Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:38:31.421Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:38:31.421Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:38:31.421Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:38:31.421Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:38:31.421Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:38:31.421Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:38:31.421Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:38:31.421Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:38:31.421Z] [1] }
+[2026-08-31T06:38:31.461Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:38:31.549Z] [1] Web Bundled 52ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:38:32.038Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:42:15.621Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:42:15.623Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:42:15.624Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:42:15.803Z] [1] λ Bundled 50ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:42:15.986Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:42:15.986Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:42:15.986Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:42:15.986Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:42:15.986Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:42:15.986Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:42:15.986Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:42:15.986Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:42:15.986Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:42:15.986Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:42:15.986Z] [1] }
+[2026-08-31T06:42:16.011Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:42:16.017Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:42:16.055Z] [1] Web Bundled 430ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:42:16.257Z] [1] Web Bundled 51ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:42:17.273Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:42:18.222Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:42:18.223Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:42:18.396Z] [1] λ Bundled 42ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:42:18.540Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:42:18.540Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:42:18.540Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:42:18.540Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:42:18.540Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:42:18.540Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:42:18.541Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:42:18.541Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:42:18.541Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:42:18.541Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:42:18.541Z] [1] }
+[2026-08-31T06:42:18.562Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:42:18.567Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:42:18.591Z] [1] Web Bundled 366ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:42:19.287Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:42:19.288Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:42:19.443Z] [1] λ Bundled 35ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:42:19.588Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:42:19.588Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:42:19.588Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:42:19.588Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:42:19.588Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:42:19.588Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:42:19.588Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:42:19.588Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:42:19.588Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:42:19.588Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:42:19.588Z] [1] }
+[2026-08-31T06:42:19.611Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:42:19.616Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:42:19.641Z] [1] Web Bundled 352ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:42:19.893Z] [1] Web Bundled 56ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:42:20.592Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:43:40.044Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:43:40.045Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:43:40.046Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:43:40.213Z] [1] λ Bundled 39ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:43:40.365Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:43:40.365Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:43:40.365Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:43:40.365Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:43:40.365Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:43:40.365Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:43:40.365Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:43:40.365Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:43:40.365Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:43:40.365Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:43:40.365Z] [1] }
+[2026-08-31T06:43:40.394Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:43:40.414Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:43:40.433Z] [1] Web Bundled 387ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:43:40.687Z] [1] Web Bundled 50ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:43:41.267Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:43:42.079Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:43:42.081Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:43:42.238Z] [1] λ Bundled 32ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:43:42.374Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:43:42.374Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:43:42.374Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:43:42.374Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:43:42.374Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:43:42.374Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:43:42.374Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:43:42.374Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:43:42.374Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:43:42.374Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:43:42.374Z] [1] }
+[2026-08-31T06:43:42.394Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:43:42.399Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:43:42.421Z] [1] Web Bundled 339ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:43:43.106Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:43:43.108Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:43:43.262Z] [1] λ Bundled 35ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:43:43.403Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:43:43.403Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:43:43.403Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:43:43.403Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:43:43.403Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:43:43.403Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:43:43.403Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:43:43.403Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:43:43.403Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:43:43.403Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:43:43.403Z] [1] }
+[2026-08-31T06:43:43.422Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:43:43.426Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:43:43.448Z] [1] Web Bundled 339ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:43:43.686Z] [1] Web Bundled 50ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:43:44.273Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:44:10.565Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:44:10.567Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:44:10.568Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:44:10.740Z] [1] λ Bundled 44ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:44:10.893Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:44:10.893Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:44:10.893Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:44:10.893Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:44:10.893Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:44:10.893Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:44:10.893Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:44:10.893Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:44:10.893Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:44:10.893Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:44:10.893Z] [1] }
+[2026-08-31T06:44:10.921Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:44:10.939Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:44:10.961Z] [1] Web Bundled 393ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:44:11.185Z] [1] Web Bundled 49ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:44:11.777Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:44:12.573Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:44:12.575Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:44:12.744Z] [1] λ Bundled 43ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:44:12.877Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:44:12.877Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:44:12.877Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:44:12.877Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:44:12.877Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:44:12.877Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:44:12.877Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:44:12.877Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:44:12.877Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:44:12.878Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:44:12.878Z] [1] }
+[2026-08-31T06:44:12.896Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:44:12.900Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:44:12.922Z] [1] Web Bundled 346ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:44:13.606Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:44:13.607Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:44:13.764Z] [1] λ Bundled 36ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:44:13.899Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:44:13.899Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:44:13.899Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:44:13.899Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:44:13.899Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:44:13.899Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:44:13.899Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:44:13.899Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:44:13.899Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:44:13.899Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:44:13.899Z] [1] }
+[2026-08-31T06:44:13.917Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:44:13.921Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:44:13.944Z] [1] Web Bundled 335ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:44:14.281Z] [1] Web Bundled 50ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:44:14.906Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:44:26.787Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:44:26.789Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:44:26.790Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:44:26.952Z] [1] λ Bundled 38ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:44:27.093Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:44:27.093Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:44:27.093Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:44:27.093Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:44:27.093Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:44:27.093Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:44:27.093Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:44:27.093Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:44:27.093Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:44:27.093Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:44:27.093Z] [1] }
+[2026-08-31T06:44:27.114Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:44:27.120Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:44:27.142Z] [1] Web Bundled 351ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:44:27.414Z] [1] Web Bundled 51ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:44:28.038Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:44:28.810Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:44:28.811Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:44:28.971Z] [1] λ Bundled 36ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:44:29.118Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:44:29.118Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:44:29.118Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:44:29.118Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:44:29.119Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:44:29.119Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:44:29.119Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:44:29.119Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:44:29.119Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:44:29.119Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:44:29.119Z] [1] }
+[2026-08-31T06:44:29.139Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:44:29.144Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:44:29.165Z] [1] Web Bundled 353ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:44:29.926Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:44:29.927Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:44:30.079Z] [1] λ Bundled 33ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:44:30.213Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:44:30.213Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:44:30.213Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:44:30.213Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:44:30.213Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:44:30.213Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:44:30.213Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:44:30.213Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:44:30.213Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:44:30.213Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:44:30.213Z] [1] }
+[2026-08-31T06:44:30.233Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:44:30.237Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:44:30.258Z] [1] Web Bundled 329ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:44:30.460Z] [1] Web Bundled 53ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:44:31.058Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:47:02.064Z] [1]  ERROR  SyntaxError: /home/ubuntu/mother-tongue-learning-assistant/app/(tabs)/index.tsx: Unexpected token, expected ":" (97:3586)
+[2026-08-31T06:47:02.064Z] [1]
+[2026-08-31T06:47:02.064Z] [1]    95 | function ContentList({ language, visible, completed, setCompleted }: any) { return <View>{visible.length === 0 ? <Text style={styles.empty}>No published content in this section yet.</Text> : visible.map((item: Content) => <View key={item.id} style={styles.contentCard}><View style={styles.contentTop}><Text style={styles.contentTag}>{item.tag.toUpperCase()}</Text><Text style={styles.outcome}>{item.outcome}</Text></View><Text style={styles.contentTitle}>{item.title}</Text><Text style={styles.hindi}>{item.hindi}</Text><Text style={styles.target}>{targetCopy[item.id]?.[language] ?? item.target}</Text><View style={styles.contentActions}><View style={styles.audioStack}><AudioButton title={item.title} language="Hindi" label={item.audioUri ? "Teacher note" : "Hindi"} source={item.audioUri ? { uri: item.audioUri } : undefined} /><AudioButton title={item.title} language={language} label={language} /></View>{item.type === "homework" && <Pressable onPress={() => setCompleted((current: string[]) => current.includes(item.id) ? current.filter((id) => id !== item.id) : [...current, item.id])} style={[styles.complete, completed.includes(item.id) && styles.completeDone]}><Text style={[styles.completeText, completed.includes(item.id) && styles.completeDoneText]}>{completed.includes(item.id) ? "✓ Completed" : "Mark complete"}</Text></Pressable>}</View></View>)}</View>; }
+[2026-08-31T06:47:02.064Z] [1]    96 |
+[2026-08-31T06:47:02.064Z] [1] >  97 | function TeacherView({ language, section, setSection, published, visible, newType, setNewType, newTitle, setNewTitle, newHindi, setNewHindi, newTarget, setNewTarget, newOutcome, setNewOutcome, publish, addVoiceNote }: any) { const actions = [{ key: "lesson", label: "Add lesson", icon: "▤" }, { key: "homework", label: "Add homework", icon: "✎" }, { key: "worksheet", label: "Build worksheet", icon: "▦" }, { key: "flashcard", label: "Add flashcards", icon: "◇" }, { key: "phrase", label: "Add phrase", icon: "◉" }, { key: "voice", label: "Record voice note", icon: "◍" }]; return <>{section === "create" ? <>{newType === "voice" ? <VoiceNoteComposer language={language} onPublish={addVoiceNote} onCancel={() => setSection("home")} /> : <><Text style={styles.sectionTitle}>Create learning content</Text><Text style={styles.cardSub}>Publish once. Every student can learn offline.</Text><View style={styles.typeRow}>{actions.map((a) => <Pressable key={a.key} onPress={() => setNewType(a.key)} style={[styles.typeChip, newType === a.key && styles.typeChipActive]}><Text style={styles.typeIcon}>{a.icon}</Text><Text style={[styles.typeText, newType === a.key && styles.typeTextActive]}>{a.label}</Text></Pressable>)}</View><TextInput value={newTitle} onChangeText={setNewTitle} placeholder="Title" placeholderTextColor="#98A0AD" style={styles.input} /><TextInput value={newHindi} onChangeText={setNewHindi} placeholder="Hindi source text" placeholderTextColor="#98A0AD" style={[styles.input, styles.multiline]} multiline /><TextInput value={newTarget} onChangeText={setNewTarget} placeholder={`${language} translation`} placeholderTextColor="#98A0AD" style={[styles.input, styles.multiline]} multiline /><TextInput value={newOutcome} onChangeText={setNewOutcome} placeholder="NIPUN Bharat learning outcome" placeholderTextColor="#98A0AD" style={styles.input} /><Pressable onPress={publish} style={styles.publishButton}><Text style={styles.publishText}>Publish to students  →</Text></Pressable><Pressable onPress={() => setSection("home")} style={styles.cancelButton}><Text style={styles.cancelText}>Cancel</Text></Pressable></>} : section === "library" ? <><Text style={styles.sectionTitle}>Content library</Text><View style={styles.statRow}><Stat label="Published" value={published.length} /><Stat label="Languages" value="1" /><Stat label="Offline" value="100%" /></View><ContentList language={language} visible={visible.length ? visible : published} completed={[]} setCompleted={() => {}} /></> : <><Text style={styles.sectionTitle}>Teacher dashboard</Text><View style={styles.teacherHero}><Text style={styles.heroEyebrow}>READY TO TEACH</Text><Text style={styles.heroTitle}>Make every lesson understood.</Text><Text style={styles.heroSub}>Create bilingual material once and keep it available in every classroom, even without internet.</Text></View><View style={styles.statRow}><Stat label="Published" value={published.length} /><Stat label="Drafts" value="0" /><Stat label="Offline" value="Ready" /></View><Text style={styles.subTitle}>Quick publish</Text><View style={styles.teacherGrid}>{actions.map((a) => <Pressable key={a.key} onPress={() => { setNewType(a.key); setSection("create"); }} style={({ pressed }) => [styles.teacherAction, pressed && styles.pressed]}><Text style={styles.actionIcon}>{a.icon}</Text><Text style={styles.actionLabel}>{a.label}</Text><Text style={styles.actionArrow}>+</Text></Pressable>)}</View><Pressable onPress={() => setSection("library")} style={styles.libraryButton}><Text style={styles.libraryText}>View content library  →</Text></Pressable></>}</>; }
+[2026-08-31T06:47:02.064Z] [1]       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ^
+[2026-08-31T06:47:02.064Z] [1]    98 | function Stat({ label, value }: { label: string; value: string | number }) { return <View style={styles.stat}><Text style={styles.statValue}>{value}</Text><Text style={styles.statLabel}>{label}</Text></View>; }
+[2026-08-31T06:47:02.064Z] [1]    99 |
+[2026-08-31T06:47:02.064Z] [1]   100 | const styles = StyleSheet.create({ page: { padding: 22, paddingBottom: 50 }, welcome: { padding: 24, alignItems: "center", paddingBottom: 40 }, logo: { width: 150, height: 150, marginTop: 12 }, brand: { color: "#102B57", fontSize: 27, fontWeight: "800", letterSpacing: -0.5, marginTop: 4 }, brandAccent: { color: "#0B8F47", fontSize: 21, fontWeight: "700", marginTop: 2 }, tagline: { color: "#667085", fontSize: 15, marginTop: 10, textAlign: "center" }, languageBox: { width: "100%", marginTop: 25 }, fieldLabel: { color: "#667085", fontSize: 12, fontWeight: "700", textTransform: "uppercase", letterSpacing: 1, marginBottom: 9 }, languageOptions: { flexDirection: "row", gap: 8 }, langOption: { flex: 1, borderWidth: 1, borderColor: "#E8E5DD", paddingVertical: 11, borderRadius: 13, alignItems: "center", backgroundColor: "#FFFFFF" }, langActive: { borderColor: "#0B8F47", backgroundColor: "#E6F6EB" }, langText: { color: "#667085", fontWeight: "600" }, langActiveText: { color: "#08733A" }, loginCard: { backgroundColor: "#FFFFFF", borderWidth: 1, borderColor: "#E8E5DD", borderRadius: 22, padding: 18, marginTop: 22, width: "100%" }, cardTitle: { color: "#102B57", fontSize: 20, fontWeight: "800" }, cardSub: { color: "#667085", marginTop: 5, marginBottom: 14 }, input: { height: 50, borderWidth: 1, borderColor: "#E8E5DD", borderRadius: 13, paddingHorizontal: 14, color: "#152238", backgroundColor: "#FFFDF8", marginBottom: 10, fontSize: 15 }, multiline: { height: 88, paddingTop: 13, textAlignVertical: "top" }, roleRow: { flexDirection: "row", gap: 10, marginTop: 5 }, roleButton: { flex: 1, borderRadius: 16, padding: 13, minHeight: 110 }, studentButton: { backgroundColor: "#E6F6EB" }, teacherButton: { backgroundColor: "#FFF0D8" }, roleIcon: { fontSize: 24, color: "#102B57" }, roleText: { color: "#102B57", fontWeight: "800", marginTop: 12 }, roleHint: { color: "#667085", fontSize: 12, marginTop: 3 }, pressed: { opacity: 0.75, transform: [{ scale: 0.98 }] }, footer: { color: "#98A0AD", fontSize: 11, marginTop: 24, textAlign: "center" }, topRow: { flexDirection: "row", justifyContent: "space-between", alignItems: "center" }, eyebrow: { color: "#0B8F47", fontWeight: "800", fontSize: 11, letterSpacing: 1.2 }, greeting: { color: "#102B57", fontSize: 25, fontWeight: "800", marginTop: 4 }, avatar: { width: 42, height: 42, borderRadius: 21, backgroundColor: "#102B57", alignItems: "center", justifyContent: "center" }, avatarText: { color: "#FFFFFF", fontWeight: "800", fontSize: 17 }, offline: { backgroundColor: "#E6F6EB", borderRadius: 15, marginTop: 18, padding: 12, flexDirection: "row", alignItems: "center" }, greenDot: { width: 9, height: 9, borderRadius: 5, backgroundColor: "#0B8F47", marginRight: 9 }, offlineTitle: { color: "#08733A", fontWeight: "800", fontSize: 13 }, offlineSub: { color: "#4E7B61", fontSize: 11, marginTop: 2 }, languagePill: { marginLeft: "auto", color: "#08733A", fontSize: 11, fontWeight: "800", backgroundColor: "#FFFFFF", paddingHorizontal: 9, paddingVertical: 6, borderRadius: 10 }, sectionTitle: { color: "#102B57", fontSize: 22, fontWeight: "800", marginTop: 25, marginBottom: 14 }, progressCard: { backgroundColor: "#102B57", borderRadius: 21, padding: 18, flexDirection: "row", justifyContent: "space-between", alignItems: "center" }, progressLabel: { color: "#AFC4E8", fontWeight: "800", fontSize: 10, letterSpacing: 1 }, progressBig: { color: "#FFFFFF", fontSize: 27, fontWeight: "800", marginTop: 8 }, progressSmall: { color: "#DDE9FA", fontSize: 12, fontWeight: "500" }, progressText: { color: "#C5D5ED", fontSize: 12, marginTop: 3 }, progressRing: { width: 62, height: 62, borderRadius: 31, borderWidth: 5, borderColor: "#F28C00", justifyContent: "center", alignItems: "center" }, ringText: { color: "#FFFFFF", fontWeight: "800" }, grid: { flexDirection: "row", flexWrap: "wrap", gap: 10, marginTop: 13 }, featureCard: { width: "48%", borderRadius: 18, padding: 15, minHeight: 118 }, featureIcon: { color: "#102B57", fontSize: 26 }, featureTitle: { color: "#102B57", fontSize: 16, fontWeight: "800", marginTop: 13 }, featureMeta: { color: "#667085", fontSize: 11, marginTop: 4 }, practiceBanner: { marginTop: 13, borderRadius: 18, backgroundColor: "#F28C00", padding: 18, flexDirection: "row", justifyContent: "space-between", alignItems: "center" }, bannerEyebrow: { color: "#7B4700", fontSize: 10, fontWeight: "800", letterSpacing: 1 }, bannerTitle: { color: "#102B57", fontSize: 18, fontWeight: "800", marginTop: 5 }, bannerSub: { color: "#744B11", fontSize: 12, marginTop: 4 }, bannerArrow: { fontSize: 30, color: "#102B57" }, contentCard: { backgroundColor: "#FFFFFF", borderWidth: 1, borderColor: "#E8E5DD", borderRadius: 18, padding: 16, marginBottom: 12 }, contentTop: { flexDirection: "row", justifyContent: "space-between", alignItems: "center" }, contentTag: { color: "#0B8F47", fontSize: 10, fontWeight: "800", letterSpacing: 1 }, outcome: { color: "#98A0AD", fontSize: 10, maxWidth: "62%", textAlign: "right" }, contentTitle: { color: "#102B57", fontSize: 18, fontWeight: "800", marginTop: 10 }, hindi: { color: "#152238", fontSize: 14, lineHeight: 22, marginTop: 10 }, target: { color: "#08733A", fontSize: 15, lineHeight: 23, marginTop: 7, backgroundColor: "#F2FAF4", padding: 10, borderRadius: 10 }, contentActions: { flexDirection: "row", justifyContent: "space-between", alignItems: "center", marginTop: 13 }, audioStack: { flexDirection: "row", gap: 10, flexWrap: "wrap" }, audio: { paddingVertical: 8 }, audioText: { color: "#102B57", fontWeight: "800" }, complete: { backgroundColor: "#FFF0D8", paddingHorizontal: 11, paddingVertical: 9, borderRadius: 10 }, completeDone: { backgroundColor: "#E6F6EB" }, completeText: { color: "#9B5A00", fontSize: 12, fontWeight: "800" }, completeDoneText: { color: "#08733A" }, empty: { color: "#667085", paddingVertical: 30, textAlign: "center" }, teacherHero: { backgroundColor: "#102B57", padding: 20, borderRadius: 20 }, heroEyebrow: { color: "#F5BE68", fontWeight: "800", fontSize: 10, letterSpacing: 1 }, heroTitle: { color: "#FFFFFF", fontWeight: "800", fontSize: 23, marginTop: 8, maxWidth: 260 }, heroSub: { color: "#C5D5ED", fontSize: 13, lineHeight: 20, marginTop: 8 }, statRow: { flexDirection: "row", gap: 9, marginTop: 13, marginBottom: 22 }, stat: { flex: 1, backgroundColor: "#FFFFFF", borderRadius: 14, borderWidth: 1, borderColor: "#E8E5DD", padding: 12 }, statValue: { color: "#102B57", fontWeight: "800", fontSize: 19 }, statLabel: { color: "#667085", fontSize: 11, marginTop: 4 }, subTitle: { color: "#102B57", fontSize: 16, fontWeight: "800", marginBottom: 10 }, teacherGrid: { gap: 9 }, teacherAction: { backgroundColor: "#FFFFFF", borderWidth: 1, borderColor: "#E8E5DD", borderRadius: 15, padding: 14, flexDirection: "row", alignItems: "center" }, actionIcon: { color: "#0B8F47", fontSize: 21, width: 36 }, actionLabel: { color: "#152238", fontWeight: "700", flex: 1 }, actionArrow: { color: "#F28C00", fontSize: 23, fontWeight: "700" }, libraryButton: { backgroundColor: "#E6F6EB", borderRadius: 14, padding: 15, alignItems: "center", marginTop: 13 }, libraryText: { color: "#08733A", fontWeight: "800" }, typeRow: { flexDirection: "row", flexWrap: "wrap", gap: 8, marginBottom: 15 }, typeChip: { borderWidth: 1, borderColor: "#E8E5DD", borderRadius: 12, padding: 10, backgroundColor: "#FFFFFF" }, typeChipActive: { borderColor: "#0B8F47", backgroundColor: "#E6F6EB" }, typeIcon: { color: "#102B57", fontSize: 17, textAlign: "center" }, typeText: { color: "#667085", fontSize: 11, fontWeight: "700", marginTop: 4 }, typeTextActive: { color: "#08733A" }, publishButton: { backgroundColor: "#0B8F47", borderRadius: 14, padding: 16, alignItems: "center", marginTop: 4 }, publishText: { color: "#FFFFFF", fontWeight: "800", fontSize: 15 }, cancelButton: { alignItems: "center", padding: 15 }, cancelText: { color: "#667085", fontWeight: "700" },
+[2026-08-31T06:47:02.064Z] [1]     at constructor (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:367:19)
+[2026-08-31T06:47:02.064Z] [1]     at TypeScriptParserMixin.raise (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:6624:19)
+[2026-08-31T06:47:02.064Z] [1]     at TypeScriptParserMixin.unexpected (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:6644:16)
+[2026-08-31T06:47:02.064Z] [1]     at TypeScriptParserMixin.expect (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:6924:12)
+[2026-08-31T06:47:02.064Z] [1]     at TypeScriptParserMixin.parseConditional (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:10956:12)
+[2026-08-31T06:47:02.064Z] [1]     at TypeScriptParserMixin.parseConditional (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:9664:18)
+[2026-08-31T06:47:02.064Z] [1]     at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:10949:17)
+[2026-08-31T06:47:02.064Z] [1]     at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:10895:21)
+[2026-08-31T06:47:02.064Z] [1]     at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:9839:20)
+[2026-08-31T06:47:02.064Z] [1]     at TypeScriptParserMixin.parseExpressionBase (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:10848:23)
+[2026-08-31T06:47:02.064Z] [1]     at /home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:10844:39
+[2026-08-31T06:47:02.064Z] [1]     at TypeScriptParserMixin.allowInAnd (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:12500:12)
+[2026-08-31T06:47:02.064Z] [1]     at TypeScriptParserMixin.parseExpression (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:10844:17)
+[2026-08-31T06:47:02.064Z] [1]     at TypeScriptParserMixin.jsxParseExpressionContainer (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:4661:31)
+[2026-08-31T06:47:02.064Z] [1]     at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:4740:36)
+[2026-08-31T06:47:02.064Z] [1]     at TypeScriptParserMixin.jsxParseElement (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:4778:17)
+[2026-08-31T06:47:02.064Z] [1]     at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:4788:19)
+[2026-08-31T06:47:02.064Z] [1]     at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:11145:23)
+[2026-08-31T06:47:02.064Z] [1]     at TypeScriptParserMixin.parseUpdate (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:11130:21)
+[2026-08-31T06:47:02.064Z] [1]     at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:11110:23)
+[2026-08-31T06:47:02.064Z] [1]     at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:9890:18)
+[2026-08-31T06:47:02.064Z] [1]     at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:10963:61)
+[2026-08-31T06:47:02.064Z] [1]     at TypeScriptParserMixin.parseExprOps (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:10968:23)
+[2026-08-31T06:47:02.064Z] [1]     at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:10945:23)
+[2026-08-31T06:47:02.064Z] [1]     at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:10895:21)
+[2026-08-31T06:47:02.064Z] [1]     at /home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:9828:39
+[2026-08-31T06:47:02.064Z] [1]     at TypeScriptParserMixin.tryParse (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:6932:20)
+[2026-08-31T06:47:02.064Z] [1]     at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:9828:18)
+[2026-08-31T06:47:02.064Z] [1]     at TypeScriptParserMixin.parseExpressionBase (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:10848:23)
+[2026-08-31T06:47:02.064Z] [1]     at /home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:10844:39
+[2026-08-31T06:47:02.064Z] [1]     at TypeScriptParserMixin.allowInAnd (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:12495:16)
+[2026-08-31T06:47:02.064Z] [1]     at TypeScriptParserMixin.parseExpression (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:10844:17)
+[2026-08-31T06:47:02.064Z] [1]     at TypeScriptParserMixin.parseReturnStatement (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:13218:28)
+[2026-08-31T06:47:02.064Z] [1]     at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:12874:21)
+[2026-08-31T06:47:02.064Z] [1]     at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:9569:18)
+[2026-08-31T06:47:02.065Z] [1]     at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:12843:17)
+[2026-08-31T06:47:02.065Z] [1]     at TypeScriptParserMixin.parseStatementListItem (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:12823:17)
+[2026-08-31T06:47:02.065Z] [1]     at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:13392:61)
+[2026-08-31T06:47:02.065Z] [1]     at TypeScriptParserMixin.parseBlockBody (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:13385:10)
+[2026-08-31T06:47:02.065Z] [1]     at TypeScriptParserMixin.parseBlock (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:13373:10)
+[2026-08-31T06:47:02.065Z] [1]     at TypeScriptParserMixin.parseFunctionBody (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:12174:24)
+[2026-08-31T06:47:02.065Z] [1]     at TypeScriptParserMixin.parseFunctionBodyAndFinish (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:12160:10)
+[2026-08-31T06:47:02.065Z] [1]     at TypeScriptParserMixin.parseFunctionBodyAndFinish (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:9223:18)
+[2026-08-31T06:47:02.065Z] [1]     at /home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:13521:12
+[2026-08-31T06:47:02.065Z] [1]     at TypeScriptParserMixin.withSmartMixTopicForbiddingContext (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:12477:14)
+[2026-08-31T06:47:02.065Z] [1]     at TypeScriptParserMixin.parseFunction (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:13520:10)
+[2026-08-31T06:47:02.065Z] [1]     at TypeScriptParserMixin.parseFunctionStatement (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:13201:17)
+[2026-08-31T06:47:02.065Z] [1]     at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:12867:21)
+[2026-08-31T06:47:02.065Z] [1]     at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:9569:18)
+[2026-08-31T06:47:02.065Z] [1]     at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/mother-tongue-learning-assistant/node_modules/@babel/parser/lib/index.js:12843:17)
+[2026-08-31T06:49:11.000Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:49:11.001Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:49:11.003Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:49:11.262Z] [1] λ Bundled 259ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:49:11.898Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:49:11.898Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:49:11.898Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:49:11.898Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:49:11.898Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:49:11.898Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:49:11.898Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:49:11.898Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:49:11.898Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:49:11.898Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:49:11.898Z] [1] }
+[2026-08-31T06:49:11.935Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:49:11.943Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:49:12.026Z] [1] Web Bundled 1024ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:49:12.124Z] [1] Web Bundled 48ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:49:12.609Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:53:14.616Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:53:14.619Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:53:14.621Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:53:14.796Z] [1] λ Bundled 48ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:53:14.977Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:53:14.977Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:53:14.977Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:53:14.977Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:53:14.977Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:53:14.977Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:53:14.977Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:53:14.977Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:53:14.977Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:53:14.977Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:53:14.977Z] [1] }
+[2026-08-31T06:53:15.003Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:53:15.009Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:53:15.055Z] [1] Web Bundled 433ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:53:15.288Z] [1] Web Bundled 49ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:53:17.056Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:53:18.366Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:53:18.367Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:53:18.542Z] [1] λ Bundled 44ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:53:18.542Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:53:18.682Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:53:18.682Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:53:18.682Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:53:18.682Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:53:18.682Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:53:18.682Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:53:18.682Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:53:18.682Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:53:18.682Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:53:18.682Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:53:18.682Z] [1] }
+[2026-08-31T06:53:18.704Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:53:18.709Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:53:18.732Z] [1] Web Bundled 364ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:53:19.489Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:53:19.491Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:53:19.644Z] [1] λ Bundled 34ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:53:19.782Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:53:19.782Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:53:19.782Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:53:19.782Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:53:19.782Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:53:19.782Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:53:19.782Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:53:19.782Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:53:19.782Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:53:19.782Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:53:19.782Z] [1] }
+[2026-08-31T06:53:19.804Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:53:19.809Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:53:19.832Z] [1] Web Bundled 340ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:53:20.161Z] [1] Web Bundled 50ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:53:21.337Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:53:51.690Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:53:51.691Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:53:51.692Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:53:51.861Z] [1] λ Bundled 42ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:53:52.021Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:53:52.021Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:53:52.021Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:53:52.021Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:53:52.021Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:53:52.021Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:53:52.021Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:53:52.021Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:53:52.021Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:53:52.021Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:53:52.021Z] [1] }
+[2026-08-31T06:53:52.049Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:53:52.066Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:53:52.087Z] [1] Web Bundled 395ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:53:52.415Z] [1] Web Bundled 51ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:53:53.577Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:53:54.335Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:53:54.336Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:53:54.498Z] [1] λ Bundled 36ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:53:54.628Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:53:54.628Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:53:54.628Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:53:54.628Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:53:54.628Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:53:54.628Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:53:54.628Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:53:54.628Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:53:54.628Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:53:54.628Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:53:54.628Z] [1] }
+[2026-08-31T06:53:54.647Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:53:54.651Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:53:54.673Z] [1] Web Bundled 335ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:53:55.576Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:53:55.577Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:53:55.732Z] [1] λ Bundled 35ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:53:55.864Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:53:55.864Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:53:55.864Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:53:55.864Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:53:55.864Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:53:55.864Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:53:55.864Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:53:55.864Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:53:55.864Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:53:55.864Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:53:55.865Z] [1] }
+[2026-08-31T06:53:55.883Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:53:55.887Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:53:55.908Z] [1] Web Bundled 330ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:53:56.142Z] [1] Web Bundled 50ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:53:57.577Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T06:56:30.335Z] [0] 6:56:30 AM [tsx] change in ./server/routers.ts Restarting...
+[2026-08-31T06:56:33.844Z] [0] c[OAuth] Initialized with baseURL: https://api.manus.im
+[2026-08-31T06:56:34.129Z] [0] [api] server listening on port 3000
+[2026-08-31T06:58:34.053Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:58:34.055Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T06:58:34.057Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:58:35.310Z] [1] λ Bundled 1252ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T06:58:35.846Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T06:58:35.846Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T06:58:35.846Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T06:58:35.846Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T06:58:35.846Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T06:58:35.846Z] [1]   '--color-muted': '#687076',
+[2026-08-31T06:58:35.846Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T06:58:35.846Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T06:58:35.846Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T06:58:35.846Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T06:58:35.846Z] [1] }
+[2026-08-31T06:58:35.882Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T06:58:35.889Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T06:58:35.906Z] [1] Web Bundled 1849ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:58:36.003Z] [1] Web Bundled 53ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T06:58:36.513Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T07:01:16.884Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:01:16.885Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:01:16.887Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T07:01:19.128Z] [1] λ Bundled 2240ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T07:01:19.820Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T07:01:19.820Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T07:01:19.821Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T07:01:19.821Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T07:01:19.821Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T07:01:19.821Z] [1]   '--color-muted': '#687076',
+[2026-08-31T07:01:19.821Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T07:01:19.821Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T07:01:19.821Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T07:01:19.821Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T07:01:19.821Z] [1] }
+[2026-08-31T07:01:19.861Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T07:01:19.869Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T07:01:19.887Z] [1] Web Bundled 3000ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:01:19.984Z] [1] Web Bundled 52ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:01:20.480Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T07:02:14.955Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:02:14.956Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:02:14.958Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T07:02:15.135Z] [1] λ Bundled 50ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T07:02:15.312Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T07:02:15.312Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T07:02:15.312Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T07:02:15.312Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T07:02:15.312Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T07:02:15.312Z] [1]   '--color-muted': '#687076',
+[2026-08-31T07:02:15.312Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T07:02:15.312Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T07:02:15.312Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T07:02:15.312Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T07:02:15.312Z] [1] }
+[2026-08-31T07:02:15.338Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T07:02:15.344Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T07:02:15.386Z] [1] Web Bundled 428ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:02:15.622Z] [1] Web Bundled 51ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:02:17.945Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T07:02:18.939Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:02:18.940Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:02:19.123Z] [1] λ Bundled 51ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T07:02:19.272Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T07:02:19.272Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T07:02:19.272Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T07:02:19.272Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T07:02:19.272Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T07:02:19.272Z] [1]   '--color-muted': '#687076',
+[2026-08-31T07:02:19.272Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T07:02:19.272Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T07:02:19.272Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T07:02:19.273Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T07:02:19.273Z] [1] }
+[2026-08-31T07:02:19.295Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T07:02:19.301Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T07:02:19.324Z] [1] Web Bundled 382ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:02:20.025Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:02:20.026Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:02:20.182Z] [1] λ Bundled 35ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T07:02:20.331Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T07:02:20.331Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T07:02:20.331Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T07:02:20.331Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T07:02:20.331Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T07:02:20.331Z] [1]   '--color-muted': '#687076',
+[2026-08-31T07:02:20.331Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T07:02:20.331Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T07:02:20.331Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T07:02:20.331Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T07:02:20.331Z] [1] }
+[2026-08-31T07:02:20.353Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T07:02:20.358Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T07:02:20.382Z] [1] Web Bundled 355ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:02:20.610Z] [1] Web Bundled 52ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:02:21.729Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T07:03:19.240Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:03:19.241Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:03:19.243Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T07:03:19.414Z] [1] λ Bundled 44ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T07:03:19.551Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T07:03:19.551Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T07:03:19.551Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T07:03:19.551Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T07:03:19.551Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T07:03:19.551Z] [1]   '--color-muted': '#687076',
+[2026-08-31T07:03:19.551Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T07:03:19.551Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T07:03:19.551Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T07:03:19.551Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T07:03:19.551Z] [1] }
+[2026-08-31T07:03:19.577Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T07:03:19.599Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T07:03:19.619Z] [1] Web Bundled 376ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:03:19.847Z] [1] Web Bundled 50ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:03:21.176Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T07:03:23.440Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:03:23.442Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:03:23.600Z] [1] λ Bundled 34ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T07:03:23.721Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T07:03:23.722Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T07:03:23.722Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T07:03:23.722Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T07:03:23.722Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T07:03:23.722Z] [1]   '--color-muted': '#687076',
+[2026-08-31T07:03:23.722Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T07:03:23.722Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T07:03:23.722Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T07:03:23.722Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T07:03:23.722Z] [1] }
+[2026-08-31T07:03:23.740Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T07:03:23.744Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T07:03:23.764Z] [1] Web Bundled 321ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:03:24.590Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:03:24.591Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:03:24.743Z] [1] λ Bundled 33ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T07:03:24.868Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T07:03:24.868Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T07:03:24.868Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T07:03:24.868Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T07:03:24.868Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T07:03:24.868Z] [1]   '--color-muted': '#687076',
+[2026-08-31T07:03:24.868Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T07:03:24.868Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T07:03:24.868Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T07:03:24.868Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T07:03:24.868Z] [1] }
+[2026-08-31T07:03:24.886Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T07:03:24.890Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T07:03:24.911Z] [1] Web Bundled 318ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:03:25.120Z] [1] Web Bundled 49ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:03:26.332Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T07:11:08.040Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:11:08.041Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:11:08.043Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T07:11:08.213Z] [1] λ Bundled 46ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T07:11:08.350Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T07:11:08.350Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T07:11:08.350Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T07:11:08.350Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T07:11:08.350Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T07:11:08.350Z] [1]   '--color-muted': '#687076',
+[2026-08-31T07:11:08.350Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T07:11:08.350Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T07:11:08.350Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T07:11:08.350Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T07:11:08.350Z] [1] }
+[2026-08-31T07:11:08.370Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T07:11:08.375Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T07:11:08.407Z] [1] Web Bundled 364ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:11:08.640Z] [1] Web Bundled 54ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:11:11.449Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T07:11:13.269Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:11:13.271Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:11:13.435Z] [1] λ Bundled 38ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T07:11:13.572Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T07:11:13.573Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T07:11:13.573Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T07:11:13.573Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T07:11:13.573Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T07:11:13.573Z] [1]   '--color-muted': '#687076',
+[2026-08-31T07:11:13.573Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T07:11:13.573Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T07:11:13.573Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T07:11:13.573Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T07:11:13.573Z] [1] }
+[2026-08-31T07:11:13.592Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T07:11:13.597Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T07:11:13.618Z] [1] Web Bundled 346ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:11:14.309Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:11:14.310Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:11:14.464Z] [1] λ Bundled 34ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T07:11:14.601Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T07:11:14.601Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T07:11:14.601Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T07:11:14.601Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T07:11:14.601Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T07:11:14.601Z] [1]   '--color-muted': '#687076',
+[2026-08-31T07:11:14.601Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T07:11:14.601Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T07:11:14.601Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T07:11:14.601Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T07:11:14.601Z] [1] }
+[2026-08-31T07:11:14.619Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T07:11:14.623Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T07:11:14.644Z] [1] Web Bundled 332ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:11:15.363Z] [1] Web Bundled 51ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:11:19.889Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T07:49:45.712Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:49:45.715Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:49:45.717Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T07:49:46.576Z] [1] Web Bundled 858ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:49:46.747Z] [1] λ Bundled 1029ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T07:49:47.276Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T07:49:47.276Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T07:49:47.276Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T07:49:47.276Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T07:49:47.276Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T07:49:47.276Z] [1]   '--color-muted': '#687076',
+[2026-08-31T07:49:47.276Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T07:49:47.276Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T07:49:47.276Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T07:49:47.276Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T07:49:47.276Z] [1] }
+[2026-08-31T07:49:47.315Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T07:49:47.395Z] [1] Web Bundled 48ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:49:47.909Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T07:50:19.485Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:50:19.486Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:50:19.488Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T07:50:19.653Z] [1] λ Bundled 45ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T07:50:19.793Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T07:50:19.793Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T07:50:19.793Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T07:50:19.793Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T07:50:19.793Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T07:50:19.793Z] [1]   '--color-muted': '#687076',
+[2026-08-31T07:50:19.793Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T07:50:19.793Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T07:50:19.793Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T07:50:19.793Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T07:50:19.793Z] [1] }
+[2026-08-31T07:50:19.813Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T07:50:19.817Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T07:50:19.854Z] [1] Web Bundled 366ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:50:20.119Z] [1] Web Bundled 68ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:50:23.019Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T07:50:24.610Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:50:24.611Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:50:24.782Z] [1] λ Bundled 44ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T07:50:24.984Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T07:50:24.984Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T07:50:24.984Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T07:50:24.984Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T07:50:24.984Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T07:50:24.984Z] [1]   '--color-muted': '#687076',
+[2026-08-31T07:50:24.984Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T07:50:24.984Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T07:50:24.984Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T07:50:24.984Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T07:50:24.984Z] [1] }
+[2026-08-31T07:50:25.016Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T07:50:25.023Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T07:50:25.059Z] [1] Web Bundled 446ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:50:25.769Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:50:25.770Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:50:25.944Z] [1] λ Bundled 42ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T07:50:26.104Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T07:50:26.104Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T07:50:26.104Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T07:50:26.104Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T07:50:26.104Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T07:50:26.105Z] [1]   '--color-muted': '#687076',
+[2026-08-31T07:50:26.105Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T07:50:26.105Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T07:50:26.105Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T07:50:26.105Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T07:50:26.105Z] [1] }
+[2026-08-31T07:50:26.128Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T07:50:26.133Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T07:50:26.156Z] [1] Web Bundled 384ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:50:26.368Z] [1] Web Bundled 58ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:50:27.648Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T07:54:36.664Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:54:36.667Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:54:36.669Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T07:54:37.552Z] [1] Web Bundled 883ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:54:37.741Z] [1] λ Bundled 1069ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T07:54:38.424Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T07:54:38.424Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T07:54:38.424Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T07:54:38.424Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T07:54:38.424Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T07:54:38.424Z] [1]   '--color-muted': '#687076',
+[2026-08-31T07:54:38.424Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T07:54:38.424Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T07:54:38.424Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T07:54:38.424Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T07:54:38.424Z] [1] }
+[2026-08-31T07:54:38.466Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T07:54:38.547Z] [1] Web Bundled 50ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:54:39.059Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T07:55:13.566Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:55:13.567Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:55:13.569Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T07:55:13.740Z] [1] λ Bundled 49ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T07:55:13.894Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T07:55:13.894Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T07:55:13.894Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T07:55:13.894Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T07:55:13.894Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T07:55:13.894Z] [1]   '--color-muted': '#687076',
+[2026-08-31T07:55:13.894Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T07:55:13.894Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T07:55:13.894Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T07:55:13.894Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T07:55:13.894Z] [1] }
+[2026-08-31T07:55:13.922Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T07:55:13.927Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T07:55:13.957Z] [1] Web Bundled 388ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:55:14.209Z] [1] Web Bundled 50ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:55:20.092Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T07:55:20.725Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:55:20.728Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:55:20.903Z] [1] λ Bundled 46ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T07:55:21.067Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T07:55:21.067Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T07:55:21.067Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T07:55:21.067Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T07:55:21.067Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T07:55:21.067Z] [1]   '--color-muted': '#687076',
+[2026-08-31T07:55:21.067Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T07:55:21.067Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T07:55:21.067Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T07:55:21.067Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T07:55:21.067Z] [1] }
+[2026-08-31T07:55:21.088Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T07:55:21.093Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T07:55:21.118Z] [1] Web Bundled 388ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:55:21.913Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:55:21.914Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:55:22.075Z] [1] λ Bundled 36ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T07:55:22.276Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T07:55:22.276Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T07:55:22.276Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T07:55:22.276Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T07:55:22.276Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T07:55:22.276Z] [1]   '--color-muted': '#687076',
+[2026-08-31T07:55:22.276Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T07:55:22.276Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T07:55:22.276Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T07:55:22.276Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T07:55:22.276Z] [1] }
+[2026-08-31T07:55:22.298Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T07:55:22.303Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T07:55:22.320Z] [1] Web Bundled 405ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:55:27.039Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T07:55:27.099Z] [1] Web Bundled 60ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:55:36.321Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T07:58:56.840Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:58:56.843Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:58:56.845Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T07:58:57.735Z] [1] Web Bundled 888ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:58:57.919Z] [1] λ Bundled 1073ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T07:58:58.598Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T07:58:58.598Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T07:58:58.598Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T07:58:58.598Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T07:58:58.598Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T07:58:58.598Z] [1]   '--color-muted': '#687076',
+[2026-08-31T07:58:58.598Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T07:58:58.598Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T07:58:58.598Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T07:58:58.598Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T07:58:58.598Z] [1] }
+[2026-08-31T07:58:58.639Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T07:58:58.717Z] [1] Web Bundled 47ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:58:59.225Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T07:59:24.706Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:59:24.707Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:59:24.709Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T07:59:24.874Z] [1] λ Bundled 46ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T07:59:25.012Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T07:59:25.012Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T07:59:25.012Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T07:59:25.012Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T07:59:25.012Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T07:59:25.012Z] [1]   '--color-muted': '#687076',
+[2026-08-31T07:59:25.012Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T07:59:25.012Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T07:59:25.012Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T07:59:25.013Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T07:59:25.013Z] [1] }
+[2026-08-31T07:59:25.035Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T07:59:25.040Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T07:59:25.068Z] [1] Web Bundled 359ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:59:25.299Z] [1] Web Bundled 47ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:59:28.072Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T07:59:28.707Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:59:28.708Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:59:28.868Z] [1] λ Bundled 35ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T07:59:28.996Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T07:59:28.996Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T07:59:28.996Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T07:59:28.996Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T07:59:28.996Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T07:59:28.996Z] [1]   '--color-muted': '#687076',
+[2026-08-31T07:59:28.996Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T07:59:28.996Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T07:59:28.996Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T07:59:28.996Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T07:59:28.996Z] [1] }
+[2026-08-31T07:59:29.017Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T07:59:29.022Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T07:59:29.046Z] [1] Web Bundled 337ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:59:29.837Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:59:29.839Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T07:59:29.995Z] [1] λ Bundled 35ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T07:59:30.135Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T07:59:30.135Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T07:59:30.135Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T07:59:30.135Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T07:59:30.135Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T07:59:30.135Z] [1]   '--color-muted': '#687076',
+[2026-08-31T07:59:30.135Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T07:59:30.135Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T07:59:30.135Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T07:59:30.135Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T07:59:30.135Z] [1] }
+[2026-08-31T07:59:30.154Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T07:59:30.159Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T07:59:30.188Z] [1] Web Bundled 348ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:59:30.448Z] [1] Web Bundled 54ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T07:59:33.492Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T08:00:55.082Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T08:00:55.083Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T08:00:55.088Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T08:00:55.265Z] [1] λ Bundled 49ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T08:00:55.444Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T08:00:55.444Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T08:00:55.444Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T08:00:55.444Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T08:00:55.444Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T08:00:55.444Z] [1]   '--color-muted': '#687076',
+[2026-08-31T08:00:55.444Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T08:00:55.444Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T08:00:55.444Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T08:00:55.444Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T08:00:55.444Z] [1] }
+[2026-08-31T08:00:55.469Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T08:00:55.475Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T08:00:55.513Z] [1] Web Bundled 425ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T08:00:55.751Z] [1] Web Bundled 52ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T08:00:59.648Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T08:01:00.217Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T08:01:00.218Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T08:01:00.389Z] [1] λ Bundled 42ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T08:01:00.524Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T08:01:00.524Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T08:01:00.524Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T08:01:00.524Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T08:01:00.524Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T08:01:00.524Z] [1]   '--color-muted': '#687076',
+[2026-08-31T08:01:00.524Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T08:01:00.524Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T08:01:00.524Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T08:01:00.524Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T08:01:00.524Z] [1] }
+[2026-08-31T08:01:00.546Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T08:01:00.552Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T08:01:00.572Z] [1] Web Bundled 353ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T08:01:01.279Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T08:01:01.280Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T08:01:01.431Z] [1] λ Bundled 33ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T08:01:01.574Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T08:01:01.574Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T08:01:01.574Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T08:01:01.574Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T08:01:01.574Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T08:01:01.574Z] [1]   '--color-muted': '#687076',
+[2026-08-31T08:01:01.574Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T08:01:01.574Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T08:01:01.574Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T08:01:01.574Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T08:01:01.574Z] [1] }
+[2026-08-31T08:01:01.599Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T08:01:01.603Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T08:01:01.628Z] [1] Web Bundled 346ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T08:01:02.487Z] [1] Web Bundled 49ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T08:01:05.488Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T08:08:49.971Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T08:08:49.972Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T08:08:49.974Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T08:08:50.150Z] [1] λ Bundled 49ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T08:08:50.306Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T08:08:50.306Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T08:08:50.306Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T08:08:50.306Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T08:08:50.306Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T08:08:50.306Z] [1]   '--color-muted': '#687076',
+[2026-08-31T08:08:50.306Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T08:08:50.306Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T08:08:50.306Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T08:08:50.306Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T08:08:50.306Z] [1] }
+[2026-08-31T08:08:50.328Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T08:08:50.333Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T08:08:50.367Z] [1] Web Bundled 393ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T08:08:50.720Z] [1] Web Bundled 52ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T08:08:52.002Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T08:08:53.419Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T08:08:53.420Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T08:08:53.584Z] [1] λ Bundled 37ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T08:08:53.725Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T08:08:53.725Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T08:08:53.725Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T08:08:53.725Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T08:08:53.725Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T08:08:53.725Z] [1]   '--color-muted': '#687076',
+[2026-08-31T08:08:53.725Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T08:08:53.725Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T08:08:53.725Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T08:08:53.725Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T08:08:53.725Z] [1] }
+[2026-08-31T08:08:53.746Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T08:08:53.750Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T08:08:53.773Z] [1] Web Bundled 351ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T08:08:54.473Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T08:08:54.474Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T08:08:54.625Z] [1] λ Bundled 32ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T08:08:54.761Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T08:08:54.761Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T08:08:54.761Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T08:08:54.761Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T08:08:54.761Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T08:08:54.761Z] [1]   '--color-muted': '#687076',
+[2026-08-31T08:08:54.761Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T08:08:54.761Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T08:08:54.761Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T08:08:54.761Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T08:08:54.761Z] [1] }
+[2026-08-31T08:08:54.779Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T08:08:54.783Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T08:08:54.804Z] [1] Web Bundled 329ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T08:08:55.168Z] [1] Web Bundled 50ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T08:08:56.563Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T08:24:20.417Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T08:24:20.419Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T08:24:20.421Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T08:24:20.603Z] [1] λ Bundled 54ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T08:24:20.762Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T08:24:20.762Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T08:24:20.762Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T08:24:20.762Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T08:24:20.762Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T08:24:20.762Z] [1]   '--color-muted': '#687076',
+[2026-08-31T08:24:20.762Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T08:24:20.762Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T08:24:20.762Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T08:24:20.762Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T08:24:20.762Z] [1] }
+[2026-08-31T08:24:20.784Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T08:24:20.789Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T08:24:20.824Z] [1] Web Bundled 403ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T08:24:21.062Z] [1] Web Bundled 57ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T08:24:22.355Z] [1]  LOG  [web] Logs will appear in the browser console
+[2026-08-31T08:24:23.573Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T08:24:23.575Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T08:24:23.741Z] [1] λ Bundled 38ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T08:24:23.887Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T08:24:23.887Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T08:24:23.887Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T08:24:23.887Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T08:24:23.888Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T08:24:23.888Z] [1]   '--color-muted': '#687076',
+[2026-08-31T08:24:23.888Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T08:24:23.888Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T08:24:23.888Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T08:24:23.888Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T08:24:23.888Z] [1] }
+[2026-08-31T08:24:23.909Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T08:24:23.913Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T08:24:23.935Z] [1] Web Bundled 359ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T08:24:24.589Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T08:24:24.590Z] [1] EXPO_USE_METRO_WORKSPACE_ROOT is enabled by default, use EXPO_NO_METRO_WORKSPACE_ROOT instead to disable.
+[2026-08-31T08:24:24.747Z] [1] λ Bundled 35ms node_modules/expo-router/node/render.js (1 module)
+[2026-08-31T08:24:24.900Z] [1] λ  LOG  { colorScheme: 'light', setColorScheme: [Function (anonymous)] } {
+[2026-08-31T08:24:24.900Z] [1]   '--color-primary': '#0a7ea4',
+[2026-08-31T08:24:24.900Z] [1]   '--color-background': '#ffffff',
+[2026-08-31T08:24:24.900Z] [1]   '--color-surface': '#f5f5f5',
+[2026-08-31T08:24:24.900Z] [1]   '--color-foreground': '#11181C',
+[2026-08-31T08:24:24.900Z] [1]   '--color-muted': '#687076',
+[2026-08-31T08:24:24.900Z] [1]   '--color-border': '#E5E7EB',
+[2026-08-31T08:24:24.900Z] [1]   '--color-success': '#22C55E',
+[2026-08-31T08:24:24.900Z] [1]   '--color-warning': '#F59E0B',
+[2026-08-31T08:24:24.900Z] [1]   '--color-error': '#EF4444'
+[2026-08-31T08:24:24.900Z] [1] }
+[2026-08-31T08:24:24.918Z] [1] λ  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
+[2026-08-31T08:24:24.923Z] [1] Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[2026-08-31T08:24:24.944Z] [1] Web Bundled 353ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T08:24:25.147Z] [1] Web Bundled 53ms node_modules/expo-router/entry.js (1 module)
+[2026-08-31T08:24:26.348Z] [1]  LOG  [web] Logs will appear in the browser console
