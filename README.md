@@ -125,8 +125,8 @@ When connectivity is available, the system can synchronize content updates and l
 
 | Layer | Technology |
 |---|---|
-| Mobile Application | Flutter |
-| Programming Language | Dart |
+| Mobile Application | React |
+| Programming Language | TypeScript |
 | Translation Model | IndicTrans2 |
 | On-device AI | ONNX / TFLite |
 | Offline Speech-to-Text | Whisper / compatible offline STT |
